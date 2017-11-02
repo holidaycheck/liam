@@ -1,0 +1,25 @@
+{
+  "name": "@holidaycheck/liam",
+  "version": "1.0.0",
+  "description": "Simple tool for running tasks against your GitHub repository and/or other services",
+  "main": "src/liam.js",
+  "repository": "https://github.com/holidaycheck/liam",
+  "scripts": {
+    "test": "mocha --require tests/setup.js tests/**/* && eslint src"
+  },
+  "author": "Radek Benkel <radoslaw.benkel@holidaycheck.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "github-webhook-handler": "^0.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "eslint": "^4.10.0",
+    "eslint-config-holidaycheck": "^0.12.1",
+    "mocha": "^4.0.1",
+    "sinon": "^4.0.2",
+    "sinon-chai": "^2.10.0",
+    "supertest": "^3.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "extends": "holidaycheck/es2015",
+
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+
+    "rules": {
+        "no-unused-expressions": [0],
+        "max-statements": [0],
+        "camelcase": [0]
+    }
+}
