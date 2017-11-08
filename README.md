@@ -1,6 +1,6 @@
 **liam** is a simple wrapper around tasks which you would like to run periodically or in response to specific events happening inside your project. What it can do? Examples how it can be used:
 
-* Update JIRA issue label when coresponding PR will be closed/repoened/etc
+* Update JIRA issue label when corresponding PR will be closed/reopened/etc
 * Fetch list of tasks which are currently in-progress on your Trello board and post that list to Slack channel
 * Use Twilio Voice API to call someone who broke master build
 * etc.
@@ -76,7 +76,7 @@ It's **highly recommended** that each handler returns a `Promise`, that way not 
 
 Everything is all about tasks. Task is a **named** function which receives up to three parameters:
 
-* `logger` - scoped logger created from `logger` passed to `createliamInstance`. It will automatically add current time and task name to every logged message.
+* `logger` - scoped logger created from `logger` passed to `createLiamInstance`. It will automatically add current time and task name to every logged message.
 * `arguments` - (optional) list of everything which is needed for task to work. Great place for external API clients like `github` or `slack` or configuration parameters. Available only when you specify `arguments` while registering tasks.
 * `payload` - (optional) in case of GitHub webhooks, this will contain webhook payload. In case when task is registered as cron, it will be empty.
 
