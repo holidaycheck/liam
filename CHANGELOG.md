@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [1.0.1] - 2017-11-08
 ### Changed
 - Fix README.md to include scope name in npm import
 - Fix typos in README.md
