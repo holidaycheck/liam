@@ -23,7 +23,7 @@
 
 ```js
 // Require `liam` module
-const createLiamInstance = require('liam');
+const createLiamInstance = require('@holidaycheck/liam');
 
 // Provide simple logger, this parameter is required
 const logger = { log: console.log, error: console.error };
@@ -53,7 +53,7 @@ const liam = createliamInstance(logger, process.env.WEBHOOK_SECRET);
 // Note: such configuration will work for any respository which will point it webhooks into this `liam` instance. You can use `repository` param, to whitelist repository, see examples below.
 liam.addHook({
     events: [ 'pull_request' ],
-    handler: require('liam-tasks/tasks/add-jira-link'),
+    handler: require('@holidaycheck/liam-tasks/tasks/add-jira-link'),
     arguments: { githubClient }
 });
 
