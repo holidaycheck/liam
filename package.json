@@ -1,6 +1,6 @@
 {
   "name": "@holidaycheck/liam",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple tool for running tasks against your GitHub repository and/or other services",
   "main": "src/liam.js",
   "repository": "https://github.com/holidaycheck/liam",
