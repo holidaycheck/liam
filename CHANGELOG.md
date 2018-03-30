@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 - Fix spec filename
+- Update dependencies
 
 ## [1.0.1] - 2017-11-08
 ### Changed
