@@ -5,6 +5,8 @@
 * Use Twilio Voice API to call someone who broke master build
 * etc.
 
+Have a look at some of already [implemented tasks](https://www.npmjs.com/package/@holidaycheck/liam-tasks).
+
 ## How to start?
 
 1. Create new repository, this will hold liam configuration specific for your project. Recommended approach is to have one liam instance per project.
