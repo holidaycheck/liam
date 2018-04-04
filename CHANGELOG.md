@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 - Remove `time` fragment in `addHook` docs
+- Fix typo in function name in docs
 
 ## [1.0.2] - 2018-03-30
 - Fix spec filename

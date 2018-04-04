@@ -46,8 +46,8 @@ githubClient.authenticate({
     token: '..', // you can hardcode token or pass it through ENV
 });
 
-// Create liam instance passing real webhook secret, as hook task is also used. If you want to use cron tasks only, just pass empty string as second parameter.
-const liam = createliamInstance(logger, process.env.WEBHOOK_SECRET);
+// Create `liam` instance passing real webhook secret, as hook task is also used. If you want to use cron tasks only, just pass empty string as second parameter.
+const liam = createLiamInstance(logger, process.env.WEBHOOK_SECRET);
 
 // Enable `add-jira-link` task running in response to `pull_request` webhook event.
 // Note: such configuration will work for any respository which will point it webhooks into this `liam` instance. You can use `repository` param, to whitelist repository, see examples below.
