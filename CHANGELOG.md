@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased]
+- Remove `time` fragment in `addHook` docs
 
 ## [1.0.2] - 2018-03-30
 - Fix spec filename

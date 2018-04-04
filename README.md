@@ -102,8 +102,7 @@ function doSomethingInResponseToGitHubEvent(logger, _, payload) {
 	logger.log(payload);
 }
 
-liam.addHook({
-    time: '* * * * * *',
+liam.addHook({    
     handler: doSomethingInResponseToGitHubEvent,
     events: [ 'pull_request' ], //optional - respond to those events only
     repository: 'john/foo' //optional - whitelist repository
