@@ -10,16 +10,16 @@
   "author": "Radek Benkel <radoslaw.benkel@holidaycheck.com>",
   "license": "MIT",
   "dependencies": {
-    "cron": "^1.2.1",
+    "cron": "^1.6.0",
     "github-webhook-handler": "^0.7.1"
   },
   "devDependencies": {
-    "chai": "^4.0.0",
-    "eslint": "^4.19.1",
-    "eslint-config-holidaycheck": "^0.12.1",
-    "mocha": "^5.0.5",
-    "sinon": "^4.4.10",
-    "sinon-chai": "^3.0.0",
-    "supertest": "^3.0.0"
+    "chai": "^4.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-holidaycheck": "^0.13.1",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3",
+    "sinon-chai": "^3.3.0",
+    "supertest": "^3.4.2"
   }
 }
